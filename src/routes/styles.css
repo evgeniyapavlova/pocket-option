@@ -41,6 +41,7 @@ body {
     background-color: var(--bgr);
     color: white;
     font-family: var(--mainFont);
+    min-width: 320px;
 }
 
 .main-container {

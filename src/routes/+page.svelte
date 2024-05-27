@@ -1,4 +1,5 @@
 <script>
+	import MainPage from '../components/main-page/MainPage.svelte';
 	import { onMount } from 'svelte';
 	import { reg_link } from '../lib/stores/reg_link';
 	import meta_img from '$lib/images/meta__img.jpg';
@@ -42,3 +43,5 @@
 	<meta name="twitter:description" content={desc} />
 	<meta name="twitter:image" content={meta_img} />
 </svelte:head>
+
+<MainPage />
