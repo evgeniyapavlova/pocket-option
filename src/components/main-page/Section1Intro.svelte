@@ -106,6 +106,8 @@
 		}
 		section {
 			padding-bottom: 100px;
+			padding-left: 0;
+			padding-right: 0;
 		}
 	}
 </style>

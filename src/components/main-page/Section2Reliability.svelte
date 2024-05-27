@@ -38,9 +38,6 @@
 	.text-content {
 		width: 57%;
 	}
-	h2 {
-		margin-bottom: 25px;
-	}
 
 	@media screen and (max-width: 960px) {
 		.layout {
@@ -59,6 +56,9 @@
 		}
 		:global(.numbers > .number-wrap) {
 			width: 50%;
+		}
+		section {
+			padding-bottom: 80px;
 		}
 	}
 
