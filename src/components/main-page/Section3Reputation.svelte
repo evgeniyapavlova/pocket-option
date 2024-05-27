@@ -26,7 +26,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-
+		position: relative;
+		z-index: 1;
 		padding-bottom: 80px;
 	}
 	.text {

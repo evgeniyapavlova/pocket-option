@@ -132,3 +132,12 @@ h2 {
     background-color: #0c1526;
     border-radius: 15px;
 }
+
+.candles-pattern,
+.pattern {
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}

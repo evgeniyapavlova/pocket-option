@@ -58,6 +58,8 @@
 	.content {
 		text-align: center;
 		padding-bottom: 140px;
+		position: relative;
+		z-index: 1;
 	}
 	.text {
 		max-width: 600px;

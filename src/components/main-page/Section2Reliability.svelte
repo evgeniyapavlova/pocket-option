@@ -26,6 +26,8 @@
 <style>
 	section {
 		padding-bottom: 115px;
+		position: relative;
+		z-index: 1;
 	}
 	.layout {
 		display: flex;
