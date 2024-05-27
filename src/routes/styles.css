@@ -126,3 +126,9 @@ h2 {
         display: none;
     }
 }
+
+.blue-border-block {
+    border: 1px solid var(--highlight-blue);
+    background-color: #0c1526;
+    border-radius: 15px;
+}

@@ -1,8 +1,8 @@
 <script>
 	const items = [
-		'Deposit Insurance',
-		'Guaranteed In-Time Execution for Your Trading Orders',
-		"Advanced Security Measures for Protecting Client's Data"
+		'Deposit<br />Insurance',
+		'Guaranteed In-Time<br />Execution for Your<br />Trading Orders',
+		"Advanced Security<br /> Measures for Protecting<br /> Client's Data"
 	];
 </script>
 
@@ -15,12 +15,12 @@
 
 	<div class="safety-items">
 		{#each items as item, index}
-			<div class="safety-item">
+			<div class="safety-item blue-border-block">
 				<div
 					class="safety-img"
 					style="background-image: url('/images/main-page/safety-item-{index + 1}.png')"
 				></div>
-				<div class="text">{item}</div>
+				<div class="text">{@html item}</div>
 			</div>
 		{/each}
 	</div>
@@ -50,12 +50,9 @@
 		margin-bottom: 50px;
 	}
 	.safety-item {
-		background-color: #0c1526;
 		padding: 70px 30px 0;
 		width: 270px;
 		height: 177px;
-		border-radius: 15px;
-		border: 1px solid var(--highlight-blue);
 		position: relative;
 	}
 	.content {
