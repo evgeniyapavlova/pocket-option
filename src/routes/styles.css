@@ -46,7 +46,13 @@ body {
     line-height: 1.2;
 }
 
-.content,
+.content {
+    max-width: 1284px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 42px;
+}
+
 .main-container {
     max-width: 1240px;
     width: 100%;
@@ -103,4 +109,8 @@ h2 {
     .content {
         max-width: 368px;
     }
+}
+
+.ws-nowrap {
+    white-space: nowrap;
 }
