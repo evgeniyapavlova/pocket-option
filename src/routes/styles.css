@@ -114,3 +114,15 @@ h2 {
 .ws-nowrap {
     white-space: nowrap;
 }
+
+@media screen and (max-width: 960px) {
+    .hide-less-960 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 961px) {
+    .show-less-960 {
+        display: none;
+    }
+}
