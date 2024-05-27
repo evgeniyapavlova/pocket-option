@@ -8,7 +8,7 @@
 </script>
 
 <header>
-	<div class="main-container">
+	<div class="header-container">
 		<div class="layout">
 			<a href={base}>
 				<Logo />
@@ -21,6 +21,12 @@
 </header>
 
 <style>
+	.header-container {
+		max-width: 1240px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
 	header {
 		background-color: rgba(1, 11, 28, 0);
 		position: fixed;

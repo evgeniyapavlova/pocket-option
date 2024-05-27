@@ -1,4 +1,5 @@
 <script>
+	import BlurDivider from './BlurDivider.svelte';
 	import Button from '../common/Button.svelte';
 </script>
 
@@ -14,6 +15,7 @@
 			<div class="screen-image"></div>
 		</div>
 	</div>
+	<BlurDivider />
 </section>
 
 <style>
@@ -32,6 +34,7 @@
 		margin: 31px auto 0;
 	}
 	section {
+		position: relative;
 		text-align: center;
 		padding: 140px 24px 125px;
 		background-size: cover;
