@@ -1,7 +1,7 @@
 <script>
 	import { slide } from 'svelte/transition';
 
-	import { getLink } from '../../../../lib/utils/strings';
+	import { getLink } from '$lib/utils/strings';
 	import menuItems from '../menuItems';
 	import ButtonWithArrow from '../ButtonWithArrow.svelte';
 

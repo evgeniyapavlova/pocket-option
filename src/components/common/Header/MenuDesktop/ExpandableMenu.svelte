@@ -9,6 +9,8 @@
 </script>
 
 <div
+	role="button"
+	tabindex="0"
 	class="submenu-wrap {isExpandedItem ? 'submenu-wrap-open' : 'submenu-wrap-close'}"
 	on:mouseenter={() => {
 		if (!isExpandedItem) {
