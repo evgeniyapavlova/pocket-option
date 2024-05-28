@@ -1,16 +1,18 @@
 <script>
-	import BlurDivider from './BlurDivider.svelte';
+	import BlurDivider from '../common/BlurDivider.svelte';
 	import Button from '../common/Button.svelte';
 </script>
 
-<section>
-	<div class="main-container">
+<section class="intro">
+	<div class="content">
 		<h1>
 			<span>Pocket Option Broker</span> —
 			<span>Online Trading</span>
 		</h1>
 		<span class="caption">Make profits, join now!</span>
 		<Button>Sign up</Button>
+	</div>
+	<div class="main-container">
 		<div class="screen-image-wrap">
 			<div class="screen-image"></div>
 		</div>
@@ -35,17 +37,12 @@
 	}
 	section {
 		position: relative;
-		text-align: center;
-		padding: 140px 24px 125px;
-		background-size: cover;
-		background-repeat: no-repeat;
 		background-image: url('/images/main-page/intro-bgr.jpg');
-		background-position: 50% 50%;
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-bottom: 125px;
 	}
 	h1 {
-		font-size: 36px;
-		line-height: 1.2;
-		font-weight: 700;
 		margin-bottom: 15px;
 	}
 	.caption {
@@ -57,9 +54,6 @@
 	}
 
 	@media screen and (max-width: 1024px) {
-		h1 {
-			font-size: 34px;
-		}
 		.caption {
 			font-size: 16px;
 			margin-bottom: 20px;
@@ -73,7 +67,6 @@
 	}
 	@media screen and (max-width: 768px) {
 		h1 {
-			font-size: 28px;
 			margin-bottom: 10px;
 		}
 		.caption {
@@ -91,7 +84,6 @@
 	}
 	@media screen and (max-width: 480px) {
 		h1 {
-			font-size: 24px;
 			margin-bottom: 16px;
 		}
 		.caption {
