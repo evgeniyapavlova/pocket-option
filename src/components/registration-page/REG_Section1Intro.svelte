@@ -22,7 +22,6 @@
 	}
 	section {
 		padding: 240px 24px 125px;
-		text-align: center;
 		background-image: url('/images/registration-page/intro-bgr.jpg');
 		position: relative;
 	}

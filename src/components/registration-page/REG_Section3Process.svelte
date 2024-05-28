@@ -1,6 +1,6 @@
 <script>
 	import Button from '../common/Button.svelte';
-	import ImageWrap from './ImageWrap.svelte';
+	import ImageWrap from '../common/ImageWrap.svelte';
 </script>
 
 <section>
