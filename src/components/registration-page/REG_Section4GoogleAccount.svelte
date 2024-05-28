@@ -67,7 +67,7 @@
 		margin-top: 20px;
 	}
 
-	li {
+	:global(ol li) {
 		margin-bottom: 20px;
 		margin-top: 20px;
 		margin-left: 16px;
