@@ -23,4 +23,9 @@
 		background-image: url('/images/desktop-app-page/intro-bgr.jpg');
 		position: relative;
 	}
+	@media screen and (max-width: 640px) {
+		section {
+			padding-bottom: 100px;
+		}
+	}
 </style>
