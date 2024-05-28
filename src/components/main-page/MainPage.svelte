@@ -7,23 +7,25 @@
 	import Section6Support from './Section6Support.svelte';
 	import Section7SpecialOffer from './Section7SpecialOffer.svelte';
 	import Pattern1 from './Pattern1.svelte';
+	import Pattern2 from './Pattern2.svelte';
+	import Pattern3 from './Pattern3.svelte';
 </script>
 
 <Intro />
-<div class="pattern-1-wrap">
+<div class="pattern-1-wrap pattern-wrap">
 	<Section2Reliability />
 	<Section3Reputation />
 	<Pattern1 />
 </div>
-<Section4Safety />
 
-<Section5Functionality />
-<Section6Support />
-<Section7SpecialOffer />
+<div class="pattern-2-wrap pattern-wrap">
+	<Section4Safety />
+	<Section5Functionality />
+	<Pattern2 />
+</div>
 
-<style>
-	.pattern-1-wrap {
-		position: relative;
-		overflow: hidden;
-	}
-</style>
+<div class="pattern-3-wrap pattern-wrap">
+	<Section6Support />
+	<Section7SpecialOffer />
+	<Pattern3 />
+</div>

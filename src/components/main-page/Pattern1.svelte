@@ -14,7 +14,7 @@
 		background-image: url('/images/main-page/reputation-candles.png');
 		width: 1154px;
 		height: 575px;
-		left: -60%;
+		right: 68%;
 		top: -14%;
 	}
 

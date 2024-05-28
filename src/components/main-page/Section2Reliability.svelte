@@ -2,8 +2,8 @@
 	import HighlightNumber from '../common/Header/HighlightNumber.svelte';
 </script>
 
-<section>
-	<div class="content">
+<div class="content">
+	<section>
 		<div class="layout">
 			<div class="text-content">
 				<h2>Reliability and Trustworthiness</h2>
@@ -20,14 +20,12 @@
 				<HighlightNumber caption="virtual money on your demo account">10 000$</HighlightNumber>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+</div>
 
 <style>
 	section {
 		padding-bottom: 115px;
-		position: relative;
-		z-index: 1;
 	}
 	.layout {
 		display: flex;
