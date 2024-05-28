@@ -1,11 +1,11 @@
 <script>
-	import meta_img from '$lib/images/meta__img__desktop_app.jpg';
+	import meta_img from '$lib/images/meta__img__download_for_pc.jpg';
 
-	import DesktopAppPage from '../../components/desktop-app-page/DesktopAppPage.svelte';
+	import DownloadForPcPage from '../../components/download-for-pc-page/DownloadForPCPage.svelte';
 
-	const title = 'Pocket Option Desktop App for PC / Mac / Windows';
+	const title = 'PPocket Option Download for PC — Windows. Guide 2024';
 	const desc =
-		'Download the Pocket Option desktop app today and start trading with ease. Take your trading to the next level, execute trades quickly and securely, and stay updated with real-time market data.';
+		'Download Pocket Option for PC and enjoy seamless trading experience with advanced features and tools. ';
 </script>
 
 <svelte:head>
@@ -20,4 +20,4 @@
 	<meta name="twitter:image" content={meta_img} />
 </svelte:head>
 
-<DesktopAppPage />
+<DownloadForPcPage />
