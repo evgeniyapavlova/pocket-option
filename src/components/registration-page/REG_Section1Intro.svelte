@@ -5,7 +5,7 @@
 
 <section class="intro">
 	<div class="content">
-		<h1>Registering And Login Pocket&nbsp;Option&nbsp;In&nbsp;India - Guide&nbsp;2024</h1>
+		<h1>Registering And Login Pocket&nbsp;Option&nbsp;In&nbsp;India - <br />Guide&nbsp;2024</h1>
 		<div class="text">
 			Let’s begin with a few quick and easy steps to create your account on the PocketOption app or
 			website. Completing the identity verification process in your PocketOption account typically
@@ -21,7 +21,7 @@
 		margin-bottom: 20px;
 	}
 	section {
-		padding: 140px 24px 125px;
+		padding: 240px 24px 125px;
 		text-align: center;
 		background-image: url('/images/registration-page/intro-bgr.jpg');
 		position: relative;
@@ -31,6 +31,12 @@
 		max-width: 570px;
 		margin: 0 auto 30px;
 	}
+	@media screen and (max-width: 1200px) {
+		section {
+			padding-top: 200px;
+		}
+	}
+
 	@media screen and (max-width: 960px) {
 		.text {
 			max-width: 470px;
