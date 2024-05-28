@@ -30,7 +30,7 @@
 <header class:scrolled>
 	<div class="header-container">
 		<div class="layout">
-			<a href={base}>
+			<a href="{base}/">
 				<Logo />
 			</a>
 			<Hamburger bind:isExpanded />

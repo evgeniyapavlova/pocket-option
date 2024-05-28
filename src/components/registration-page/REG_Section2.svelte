@@ -17,8 +17,14 @@
 		color: white;
 		font-size: 20px;
 		line-height: 1.4;
-		margin-bottom: 80px;
-		max-width: 740px;
+		margin-bottom: 100px;
+		max-width: 760px;
+	}
+
+	@media screen and (min-width: 1201px) {
+		.content {
+			max-width: 844px;
+		}
 	}
 	@media screen and (max-width: 1200px) {
 		.desc {
@@ -33,12 +39,6 @@
 	@media screen and (max-width: 640px) {
 		.desc {
 			font-size: 16px;
-		}
-	}
-
-	@media screen and (max-width: 480px) {
-		.content {
-			text-align: center;
 		}
 	}
 </style>
