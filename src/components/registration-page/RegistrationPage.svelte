@@ -4,6 +4,8 @@
 	import RegSection3Process from './REG_Section3Process.svelte';
 	import RegSection4GoogleAccount from './REG_Section4GoogleAccount.svelte';
 	import RegSection5PocketOptionApp from './REG_Section5PocketOptionApp.svelte';
+	import RegSection6Info from './REG_Section6Info.svelte';
+	import RegSection7Faq from './REG_Section7FAQ.svelte';
 	import Section7SpecialOffer from '../main-page/Section7SpecialOffer.svelte';
 </script>
 
@@ -12,5 +14,6 @@
 <RegSection3Process />
 <RegSection4GoogleAccount />
 <RegSection5PocketOptionApp />
-
+<RegSection6Info />
+<RegSection7Faq />
 <Section7SpecialOffer />

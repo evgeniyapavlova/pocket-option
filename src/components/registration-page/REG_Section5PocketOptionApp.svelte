@@ -10,11 +10,11 @@
 			<li>Enter a valid email address.</li>
 			<li>Create a secure password.</li>
 			<li>Enter a promo code (if you have one).</li>
-			<li>Review the terms of the agreement and click "Sign up".</li>
+			<li>Review the terms of the agreement and click "Sign&nbsp;up".</li>
 		</ol>
 		<div class="text">
 			Congratulations! You have successfully registered. To start trading with a real account, click
-			"Deposit". If you prefer to start with a demo account, you already have $ 1,000.
+			"Deposit". If you prefer to start with a demo account, you already have $&nbsp;1,000.
 		</div>
 	</div>
 </div>
