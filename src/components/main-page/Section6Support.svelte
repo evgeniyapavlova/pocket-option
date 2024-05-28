@@ -11,6 +11,9 @@
 </div>
 
 <style>
+	.content {
+		padding-top: 180px;
+	}
 	.blue-border-block {
 		position: relative;
 		padding: 40px 8% 40px calc(340px + 5%);
@@ -44,6 +47,9 @@
 		}
 		.blue-border-block {
 			padding: 30px 24px 30px 260px;
+		}
+		.content {
+			padding-top: 100px;
 		}
 	}
 

@@ -91,6 +91,7 @@
 		.footer-menu {
 			flex-wrap: wrap;
 			width: 450px;
+			max-width: 100%;
 		}
 
 		ul {

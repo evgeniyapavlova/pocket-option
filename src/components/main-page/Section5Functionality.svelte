@@ -63,16 +63,12 @@
 	}
 	.content {
 		text-align: center;
-		padding-bottom: 140px;
 	}
 	.text {
 		max-width: 700px;
 		margin: 0 auto;
 	}
 	@media screen and (max-width: 960px) {
-		.content {
-			padding-bottom: 100px;
-		}
 		.func-item {
 			width: 32%;
 			margin-bottom: 40px;
