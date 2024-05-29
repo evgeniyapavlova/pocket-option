@@ -5,5 +5,7 @@
 </script>
 
 <DaSection1Intro />
-<DaSection2Content />
+<div class="page">
+	<DaSection2Content />
+</div>
 <Section7SpecialOffer />

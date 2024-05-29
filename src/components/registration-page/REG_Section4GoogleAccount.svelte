@@ -13,7 +13,7 @@
 		<ol class="image-wrap-1">
 			<li class="text">Click the "Google" button.</li>
 			<div class="image-5">
-				<ImageWrap imageIdx="5" imageH={452} />
+				<ImageWrap imageH={452} path="/registration-page/process_img5.jpg" />
 			</div>
 			<li class="text">
 				In the opened window, select your Google account or enter your phone number or email address
@@ -25,17 +25,17 @@
 		<div class="text">
 			If you want to use a demo account, click "Trading" and "Quick Trading on a Demo Account."
 		</div>
-		<ImageWrap imageIdx="6" imageH={351} />
+		<ImageWrap path="/registration-page/process_img6.jpg" imageH={351} />
 
 		<div class="image-wrap-1">
-			<ImageWrap imageIdx="7" imageH={351} />
+			<ImageWrap path="/registration-page/process_img7.jpg" imageH={351} />
 		</div>
 		<div class="text">Now you can start trading. You have $ 1,000 on your demo account.</div>
 		<div class="text">
 			Using a demo account is an excellent way to learn how to trade and get the hang of things
 			without worrying about losing your own funds.
 		</div>
-		<ImageWrap imageIdx="8" imageH={352} />
+		<ImageWrap path="/registration-page/process_img8.jpg" imageH={352} />
 		<div class="text text-bottom">
 			To start real-time trading, you need to make an investment in your account (the minimum
 			investment amount is $ 50).
@@ -67,21 +67,9 @@
 		margin-top: 20px;
 	}
 
-	:global(ol li) {
-		margin-bottom: 20px;
-		margin-top: 20px;
-		margin-left: 16px;
-	}
-
 	.text-bottom {
 		margin-top: 50px;
 		margin-bottom: 30px;
-	}
-
-	@media screen and (max-width: 480px) {
-		:global(.image-5 .image-wrap) {
-			height: calc((100vw - 48px) * 0.6 + 25px);
-		}
 	}
 
 	@media screen and (min-width: 1201px) {

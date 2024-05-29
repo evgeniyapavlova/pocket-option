@@ -13,14 +13,14 @@
 			$&nbsp;50,000 in a demo&nbsp;account.
 		</div>
 		<div class="image-wrap-1">
-			<ImageWrap imageIdx="3" imageH={355} />
+			<ImageWrap imageH={355} path="/registration-page/process_img3.jpg" />
 		</div>
 		<div class="text" style="margin-top: 20px;">
 			To continue using the account, save your trading results, and start trading on a real account,
 			click "Registration" to create a PocketOption account.
 		</div>
 		<div class="image-wrap-1">
-			<ImageWrap imageIdx="4" imageH={355} />
+			<ImageWrap path="/registration-page/process_img4.jpg" imageH={355} />
 		</div>
 		<div class="text text-bottom">
 			You’ll have two options: Register using your email address or your Google account, as shown
@@ -32,11 +32,11 @@
 <REG_Section4GoogleAccount />
 
 <style>
-	.btn-wrap {
-		text-align: center;
-		max-width: 760px;
+	section {
+		position: relative;
 	}
 	.content {
+		position: static;
 		padding-top: 100px;
 	}
 	.text-bottom {

@@ -11,21 +11,21 @@
 			be taken to the demo trading page.
 		</div>
 		<div class="image-wrap-1">
-			<ImageWrap imageIdx="1" imageH={355} />
+			<ImageWrap imageH={355} path="/registration-page/process_img1.jpg" />
 		</div>
 
 		<div class="text">Click "Demo Account" to start trading with $ 50,000 on a demo account.</div>
-		<ImageWrap imageIdx="2" imageH={354} />
+		<ImageWrap path="/registration-page/process_img2.jpg" imageH={354} />
 
 		<div class="image-wrap-3">
-			<ImageWrap imageIdx="3" imageH={354} />
+			<ImageWrap path="/registration-page/process_img3.jpg" imageH={354} />
 		</div>
 		<div class="text">
 			To continue using the account, save your trading results, and start trading on a real account,
 			click "Registration" to create a PocketOption account.
 		</div>
 
-		<ImageWrap imageIdx="4" imageH={355} />
+		<ImageWrap path="/registration-page/process_img4.jpg" imageH={355} />
 
 		<div class="text text-bottom">
 			You’ll have two options: Register using your email address or your Google account, as shown

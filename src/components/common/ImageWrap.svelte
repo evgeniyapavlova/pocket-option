@@ -1,14 +1,14 @@
 <script>
 	import { base } from '$app/paths';
-	export let imageH, imageIdx;
+	export let imageH, path;
 
 	const paddingBottom = Math.round(imageH / 7.6);
 </script>
 
-<div class="image-wrap">
+<div class="image-wrap" style="height: calc((100vw - 48px) * {paddingBottom / 100} + 25px);">
 	<div
 		class="image"
-		style="background-image:url('{base}/images/registration-page/process_img{imageIdx}.jpg'); padding-bottom: {paddingBottom}%;"
+		style="background-image:url('{base}/images{path}'); padding-bottom: {paddingBottom}%;"
 	></div>
 </div>
 
@@ -19,13 +19,16 @@
 	}
 	.image {
 		width: 100%;
-		background-size: cover;
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (min-width: 480px) {
 		.image-wrap {
-			height: calc((100vw - 48px) * 0.47 + 25px);
+			height: auto !important;
 		}
+	}
+	@media screen and (max-width: 480px) {
 		.image {
 			position: absolute;
 			left: 24px;
