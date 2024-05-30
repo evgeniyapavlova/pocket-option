@@ -1,7 +1,6 @@
 export const section2 = [
 	{
-		title:
-			'A Comprehensive Guide to Registering and Logging <br />into Pocket&nbsp;Option in&nbsp;India',
+		title: 'A Comprehensive Guide to Registering and Logging into Pocket&nbsp;Option in&nbsp;India',
 		text: 'The financial landscape has undergone a significant metamorphosis with the advent of online trading platforms, allowing individuals to effortlessly participate in trading from the comfort of their homes. In India, Pocket Option has positioned itself as a trailblazer in this digital transformation, gaining popularity among Indian traders.'
 	},
 	{

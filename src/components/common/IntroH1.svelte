@@ -1,14 +1,17 @@
 <script>
-	import BlurDivider from '../common/BlurDivider.svelte';
-	import Button from '../common/Button.svelte';
+	import BlurDivider from './BlurDivider.svelte';
+	import Button from './Button.svelte';
+
+	export let bgrImg,
+		btnText = 'Start trading';
 </script>
 
-<section class="intro">
+<section class="intro" style="background-image: url('{bgrImg}');">
 	<div class="content">
 		<h1>
-			Pocket Option <br />Desktop App
+			<slot />
 		</h1>
-		<Button>Start trading</Button>
+		<Button>{btnText}</Button>
 	</div>
 	<BlurDivider />
 </section>
@@ -20,7 +23,7 @@
 	section {
 		padding-top: 230px;
 		padding-bottom: 150px;
-		background-image: url('/images/desktop-app-page/intro-bgr.jpg');
+
 		position: relative;
 	}
 	@media screen and (max-width: 640px) {

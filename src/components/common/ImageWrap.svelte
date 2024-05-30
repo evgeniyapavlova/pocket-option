@@ -5,17 +5,18 @@
 	const paddingBottom = Math.round(imageH / 7.6);
 </script>
 
-<div class="image-wrap" style="height: calc((100vw - 48px) * {paddingBottom / 100} + 25px);">
+<div class="image-wrap" style="height: calc((100vw - 48px) * {paddingBottom / 100});">
 	<div
 		class="image"
 		style="background-image:url('{base}/images{path}'); padding-bottom: {paddingBottom}%;"
-	></div>
+	/>
 </div>
 
 <style>
 	.image-wrap {
 		max-width: 760px;
-		margin-top: 25px;
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 	.image {
 		width: 100%;
