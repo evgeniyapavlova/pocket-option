@@ -32,7 +32,12 @@
 			<div class="arrow-up"></div>
 			{#each items as item}
 				<li>
-					<a href={getLink(item)}>{item}</a>
+					<a
+						on:click={() => {
+							isExpandedItem = false;
+						}}
+						href={getLink(item)}>{item}</a
+					>
 				</li>
 			{/each}
 		</ul>

@@ -34,7 +34,7 @@
 				<Logo />
 			</a>
 			<Hamburger bind:isExpanded />
-			<MenuMobile {isExpanded} />
+			<MenuMobile bind:isExpanded />
 			<Menu />
 		</div>
 	</div>

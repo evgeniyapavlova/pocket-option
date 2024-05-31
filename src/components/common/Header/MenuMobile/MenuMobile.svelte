@@ -8,6 +8,11 @@
 	export let isExpanded;
 
 	const temp = menuItems;
+
+	function closeMenu() {
+		isExpanded = false;
+		temp.forEach((el) => (el.open = false));
+	}
 </script>
 
 {#if isExpanded}
@@ -30,13 +35,13 @@
 						<ul class="submenu-fullpage" transition:slide={{ delay: 250, duration: 300 }}>
 							{#each item.children as item}
 								<li>
-									<a href={getLink(item)}>{item}</a>
+									<a on:click={closeMenu} href={getLink(item)}>{item}</a>
 								</li>
 							{/each}
 						</ul>
 					{/if}
 				{:else}
-					<a class="menu-item-link" href={getLink(item.label)}>
+					<a on:click={closeMenu} class="menu-item-link" href={getLink(item.label)}>
 						{item.label}
 					</a>
 				{/if}
