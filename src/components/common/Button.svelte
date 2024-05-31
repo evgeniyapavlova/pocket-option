@@ -10,5 +10,13 @@
 		font-weight: 700;
 		font-size: 16px;
 		display: inline-block;
+		transition:
+			color 0.2s ease-out,
+			background-color 0.3s ease-out;
+		cursor: pointer;
+	}
+	button:hover {
+		color: var(--highlight-blue);
+		background-color: white;
 	}
 </style>
