@@ -6,7 +6,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			$lib: path.resolve('src/lib')
+			$lib: path.resolve('src/lib'),
+			$common: path.resolve('src/components/common')
 		},
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/pocket-option' : ''

@@ -28,6 +28,18 @@
 		margin-left: 16px;
 	}
 
+	:global(.page ul.desc li) {
+		margin-left: 20px;
+	}
+
+	:global(.page ul.desc) {
+		margin-top: 20px;
+	}
+
+	:global(.page .desc) {
+		margin-top: 30px;
+	}
+
 	:global(.page ul) {
 		list-style-type: disc;
 	}

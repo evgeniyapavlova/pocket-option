@@ -20,7 +20,7 @@
 	h1 {
 		margin-bottom: 25px;
 	}
-	section {
+	section.intro {
 		padding-top: 230px;
 		padding-bottom: 150px;
 
