@@ -7,7 +7,8 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$lib: path.resolve('src/lib'),
-			$common: path.resolve('src/components/common')
+			$common: path.resolve('src/components/common'),
+			$comps: path.resolve('src/components')
 		},
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/pocket-option' : ''

@@ -4,6 +4,7 @@
       "paths": {
         "$lib/*": ["src/lib/*"],
         "$common/*": ["src/components/common/*"],
+        "$comps/*": ["src/components/*"],
       }
     },
     "include": ["src/**/*"]
