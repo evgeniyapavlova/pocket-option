@@ -1,7 +1,7 @@
-<button><slot /></button>
+<a class="button" href="https://po8.cash/smart/OfMQSeUf7i3hm2" target="_blank"><slot /></a>
 
 <style>
-	button {
+	.button {
 		background-color: var(--highlight-blue);
 		color: white;
 		padding: 14px 40px;
@@ -15,7 +15,7 @@
 			background-color 0.3s ease-out;
 		cursor: pointer;
 	}
-	button:hover {
+	.button:hover {
 		color: var(--highlight-blue);
 		background-color: white;
 	}

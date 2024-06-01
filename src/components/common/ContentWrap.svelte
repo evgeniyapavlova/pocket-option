@@ -56,6 +56,15 @@
 		margin-top: 80px;
 	}
 
+	:global(.page .blue-border-block) {
+		padding: 40px;
+	}
+	@media screen and (max-width: 640px) {
+		:global(.page .blue-border-block) {
+			padding: 20px;
+		}
+	}
+
 	@media screen and (min-width: 1201px) {
 		:global(.page .content) {
 			max-width: 844px;

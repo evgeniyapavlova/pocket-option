@@ -36,14 +36,3 @@
 <div class="text">{content.text_9}</div>
 <div class="text">{content.text_10}</div>
 <ImageWrap imageW={460} imageH={294} path="/tournaments/img10.webp" fullImage={[1006, 642]} />
-
-<style>
-	.blue-border-block {
-		padding: 40px;
-	}
-	@media screen and (max-width: 640px) {
-		.blue-border-block {
-			padding: 20px;
-		}
-	}
-</style>
