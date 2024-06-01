@@ -4,6 +4,10 @@
     border: 0;
 }
 
+*:focus-visible {
+    outline: none;
+}
+
 *,
 *:before,
 *:after {
@@ -204,6 +208,10 @@ section.intro {
     border: 1px solid var(--highlight-blue);
     background-color: rgba(255, 255, 255, 0.03);
     border-radius: 15px;
+}
+
+.blue-border-block span {
+    color: var(--highlight-blue);
 }
 
 .candles-pattern,

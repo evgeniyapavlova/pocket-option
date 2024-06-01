@@ -2,7 +2,7 @@
 	import BlurDivider from './BlurDivider.svelte';
 	import Button from './Button.svelte';
 
-	export let bgrImg,
+	export let bgrImg = '/images/desktop-app-page/intro-bgr.jpg',
 		btnText = 'Start trading';
 </script>
 
