@@ -68,6 +68,7 @@
 		display: block;
 	}
 	.close-btn {
+		background-color: rgba(0, 0, 0, 0.3);
 		cursor: pointer;
 		display: block;
 		box-sizing: border-box;
@@ -77,8 +78,8 @@
 		right: 10px;
 		margin: 0;
 		padding: 0;
-		width: 20px;
-		height: 20px;
+		width: 30px;
+		height: 30px;
 		border: 0;
 		border-radius: 3rem;
 		transition:
@@ -98,7 +99,7 @@
 		height: 2px;
 		background: rgba(255, 255, 255, 0.7);
 		transform-origin: center;
-		left: 0;
+		left: 5px;
 		transition:
 			height 0.2s cubic-bezier(0.25, 0.1, 0.25, 1),
 			background 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -116,7 +117,7 @@
 	.close-btn:hover::before,
 	.close-btn:hover::after {
 		height: 2px;
-		background: white;
+		background: rgba(0, 0, 0, 0.3);
 	}
 	.close-btn:hover {
 		background-color: rgba(255, 255, 255, 0.1);

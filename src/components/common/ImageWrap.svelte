@@ -34,7 +34,7 @@
 <style>
 	.inside-modal-image {
 		max-width: 100%;
-		max-height: 100%;
+		max-height: 95vh;
 	}
 	.image-wrap {
 		margin-top: 30px;
