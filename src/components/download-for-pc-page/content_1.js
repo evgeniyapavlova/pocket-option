@@ -18,7 +18,7 @@ export default [
 	},
 	{ tag: tags.text, text: 'Download the official PocketOption app to your laptop or PC.' },
 
-	{ tag: tags.btn, text: 'Download the Application' },
+	{ tag: tags.btn, text: 'Download the&nbsp;Application' },
 	{
 		tag: tags.text,
 		text: 'After a successful download, follow these standard steps to install the app on Windows:'
@@ -53,7 +53,7 @@ export default [
 		tag: tags.text,
 		text: "Traders in today's fast-paced financial markets demand a platform that not only simplifies their trading journey but also empowers them with advanced tools and features. Pocket Option's desktop version rises to this challenge, offering a suite of functionalities designed for the discerning trader."
 	},
-	{ tag: tags.btn, text: 'Download the Application' },
+	{ tag: tags.btn, text: 'Download the&nbsp;Application' },
 
 	{ tag: tags.h3, text: 'Refined Trading Interface for Enhanced Decision-Making' },
 	{
@@ -70,7 +70,7 @@ export default [
 		tag: tags.text,
 		text: "In the realm of online trading, security is a top priority, and Pocket Option’s desktop version addresses this with cutting-edge security features. The platform incorporates state-of-the-art encryption to safeguard sensitive data, ensuring traders' personal and financial information remains secure. It also includes additional security layers such as two-factor authentication, providing a robust defense against unauthorized access. Regular security updates are a hallmark of the platform, maintaining a fortified stance against new security threats."
 	},
-	{ tag: tags.btn, text: 'Download the Application' },
+	{ tag: tags.btn, text: 'Download the&nbsp;Application' },
 	{ tag: tags.h2, text: 'Insights into the Pocket Option Trading&nbsp;Interface' },
 	{ tag: tags.h3, text: 'Steps to Obtain Pocket Option' },
 	{
@@ -98,7 +98,7 @@ export default [
 		tag: tags.text,
 		text: "In the dynamic world of trading, having a platform that operates seamlessly on your device is crucial. For traders using Windows, optimizing the Pocket Option platform can enhance your trading experience significantly. Here's how you can get the most out of Pocket Option on your Windows system."
 	},
-	{ tag: tags.btn, text: 'Download the Application' },
+	{ tag: tags.btn, text: 'Download the&nbsp;Application' },
 
 	{ tag: tags.h3, text: 'Configuring Settings for Optimal Performance' },
 	{
@@ -139,5 +139,5 @@ export default [
 		tag: tags.text,
 		text: 'By following these guidelines, traders using Windows can optimize their Pocket Option experience, leading to a more productive and efficient trading environment. Remember, while this guide is tailored for traders, the actual optimization might vary based on individual PC configurations and versions of Windows.'
 	},
-	{ tag: tags.btn, text: 'Download the Application' }
+	{ tag: tags.btn, text: 'Download the&nbsp;Application' }
 ];

@@ -45,6 +45,10 @@
 </div>
 
 <style>
+	a {
+		padding: 8px 20px;
+		display: block;
+	}
 	.arrow-up {
 		position: absolute;
 		top: -6px;
@@ -73,7 +77,6 @@
 	}
 
 	li {
-		padding: 8px 20px;
 		white-space: nowrap;
 	}
 
