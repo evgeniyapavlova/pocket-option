@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	const items = [
 		'Deposit<br />Insurance',
 		'Guaranteed In-Time<br />Execution for Your<br />Trading Orders',
@@ -18,7 +19,7 @@
 			<div class="safety-item blue-border-block">
 				<div
 					class="safety-img"
-					style="background-image: url('/images/main-page/safety-item-{index + 1}.png')"
+					style="background-image: url('{base}/images/main-page/safety-item-{index + 1}.png')"
 				></div>
 				<div class="text">{@html item}</div>
 			</div>

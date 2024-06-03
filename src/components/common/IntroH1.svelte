@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import BlurDivider from './BlurDivider.svelte';
 	import Button from './Button.svelte';
 
@@ -6,7 +7,7 @@
 		btnText = 'Start trading';
 </script>
 
-<section class="intro" style="background-image: url('{bgrImg}');">
+<section class="intro" style="background-image: url('{base}{bgrImg}');">
 	<div class="content">
 		<h1>
 			<slot />
