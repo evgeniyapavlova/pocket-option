@@ -18,7 +18,7 @@
 	.content-wrap {
 		padding-top: 20px;
 		padding-bottom: 100px;
-		background-image: url('/images/bonus/bonus_img1.jpg');
+		background-image: url('/images/bonus/img1.webp');
 		background-repeat: no-repeat;
 		background-size: 260px 515px;
 		background-position: right 0 bottom 50%;
