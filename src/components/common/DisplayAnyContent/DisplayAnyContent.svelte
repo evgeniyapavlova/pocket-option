@@ -1,4 +1,5 @@
 <script>
+	import Button from '$common/Button.svelte';
 	import ImageWrap from '$common/ImageWrap.svelte';
 	export let content, imgFolder;
 </script>
@@ -6,6 +7,8 @@
 {#each content as data}
 	{#if data.tag === 'text'}
 		<div class="text">{@html data.text}</div>
+	{:else if data.tag === 'desc'}
+		<div class="desc">{@html data.text}</div>
 	{:else if data.tag === 'h2'}
 		<h2>{@html data.text}</h2>
 	{:else if data.tag === 'h3'}
@@ -20,6 +23,24 @@
 				<li>{@html textItem}</li>
 			{/each}
 		</ul>
+	{:else if data.tag === 'ul_desc'}
+		<ul class="desc">
+			{#each data.text as textItem}
+				<li>{@html textItem}</li>
+			{/each}
+		</ul>
+	{:else if data.tag === 'ol_text'}
+		<ol class="text">
+			{#each data.text as textItem}
+				<li>{@html textItem}</li>
+			{/each}
+		</ol>
+	{:else if data.tag === 'ol_desc'}
+		<ol class="desc">
+			{#each data.text as textItem}
+				<li>{@html textItem}</li>
+			{/each}
+		</ol>
 	{:else if data.tag === 'ol_ul'}
 		<ol class="text">
 			{#each data.text as textItem}
@@ -35,6 +56,8 @@
 				</li>
 			{/each}
 		</ol>
+	{:else if data.tag === 'btn'}
+		<div class="btn-wrap"><Button>{data.text}</Button></div>
 	{:else if data.tag === 'img'}
 		<ImageWrap
 			imageW={data.thumb[0]}

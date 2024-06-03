@@ -1,7 +1,8 @@
 <script>
 	import IntroH1 from '$common/IntroH1.svelte';
-	import DAccSection2Content from './DAcc_Section2Content.svelte';
 	import ContentWrap from '$common/ContentWrap.svelte';
+	import DisplayAnyContent from '$common/DisplayAnyContent/DisplayAnyContent.svelte';
+	import content from './content';
 </script>
 
 <IntroH1 bgrImg="/images/desktop-app-page/intro-bgr.jpg">
@@ -9,5 +10,5 @@
 </IntroH1>
 
 <ContentWrap>
-	<DAccSection2Content />
+	<DisplayAnyContent imgFolder="demo-account" {content} />
 </ContentWrap>
