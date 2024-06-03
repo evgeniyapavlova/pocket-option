@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__download_android_app.jpg';
+	import meta_img from '$lib/images/meta_img_download_android_app.jpg';
 
 	import DownloadAndroidAppPage from '../../components/download-android-app-page/DownloadAndroidAppPage.svelte';
 

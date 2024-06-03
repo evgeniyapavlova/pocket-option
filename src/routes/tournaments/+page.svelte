@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__min_dep.jpg';
+	import meta_img from '$lib/images/meta_img_tournaments.jpg';
 
 	import TournamentsPage from '$comps/tournaments-page/TournamentsPage.svelte';
 

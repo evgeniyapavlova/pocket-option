@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__mt4_platform.jpg';
+	import meta_img from '$lib/images/meta_img_mt4_platform.jpg';
 
 	import Mt4PlatformPage from '../../components/mt4-platform-page/MT4PlatformPage.svelte';
 

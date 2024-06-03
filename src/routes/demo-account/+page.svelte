@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__demo_account.jpg';
+	import meta_img from '$lib/images/meta_img_demo_account.jpg';
 
 	import DemoAccountPage from '../../components/demo-account-page/DemoAccountPage.svelte';
 

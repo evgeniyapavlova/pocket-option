@@ -1,4 +1,3 @@
 import { writable } from 'svelte/store';
 
-// TODO change link
-export const reg_link = writable('https://trade.exnova.com/');
+export const reg_link = writable('https://po8.cash/smart/OfMQSeUf7i3hm2');

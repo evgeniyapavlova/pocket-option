@@ -1,6 +1,5 @@
 <script>
-	// TODO change meta img
-	import meta_img from '$lib/images/meta__img__demo_account.jpg';
+	import meta_img from '$lib/images/meta_img_bonus.jpg';
 
 	import BonusPage from '$comps/bonus-page/BonusPage.svelte';
 

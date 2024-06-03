@@ -2,7 +2,7 @@
 	import MainPage from '../components/main-page/MainPage.svelte';
 	import { onMount } from 'svelte';
 	import { reg_link } from '../lib/stores/reg_link';
-	import meta_img from '$lib/images/meta__img.jpg';
+	import meta_img from '$lib/images/meta_img_main.jpg';
 
 	const title = 'Pocket Option Broker — Best Trading Platform in India';
 	const desc =

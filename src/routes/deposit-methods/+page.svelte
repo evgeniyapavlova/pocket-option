@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__demo_account.jpg';
+	import meta_img from '$lib/images/meta_img_deposit_methods.jpg';
 
 	import DepositMethodsPage from '$comps/deposit-methods-page/DepositMethodsPage.svelte';
 

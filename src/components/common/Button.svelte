@@ -1,4 +1,8 @@
-<a class="button" href="https://po8.cash/smart/OfMQSeUf7i3hm2" target="_blank"><slot /></a>
+<script>
+	import { reg_link } from '$lib/stores/reg_link';
+</script>
+
+<a class="button" href={$reg_link} target="_blank"><slot /></a>
 
 <style>
 	.button {

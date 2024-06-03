@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__registration.jpg';
+	import meta_img from '$lib/images/meta_img_how_to_use.jpg';
 
 	import HowToUsePage from '$comps/how-to-use-page/HowToUsePage.svelte';
 

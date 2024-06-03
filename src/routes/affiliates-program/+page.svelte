@@ -1,7 +1,7 @@
 <script>
-	import meta_img from '$lib/images/meta__img__registration.jpg';
+	import meta_img from '$lib/images/meta_img_affiliate_program.jpg';
 
-	import AffiliateProgramPage from '$comps/affiliates-program/AffiliateProgramPage.svelte';
+	import AffiliateProgramPage from '$comps/affiliate-program/AffiliateProgramPage.svelte';
 
 	const title = 'Pocket Option Affiliate: Earn Money with the Best Affiliate Program';
 	const desc =

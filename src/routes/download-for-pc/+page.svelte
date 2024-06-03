@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__download_for_pc.jpg';
+	import meta_img from '$lib/images/meta_img_download_for_pc.jpg';
 
 	import DownloadForPcPage from '../../components/download-for-pc-page/DownloadForPCPage.svelte';
 

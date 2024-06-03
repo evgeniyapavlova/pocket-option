@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__registration.jpg';
+	import meta_img from '$lib/images/meta_img_registration.jpg';
 
 	import RegistrationPage from '../../components/registration-page/RegistrationPage.svelte';
 

@@ -1,5 +1,5 @@
 <script>
-	import meta_img from '$lib/images/meta__img__desktop_app.jpg';
+	import meta_img from '$lib/images/meta_img_desktop_app.jpg';
 
 	import DesktopAppPage from '../../components/desktop-app-page/DesktopAppPage.svelte';
 

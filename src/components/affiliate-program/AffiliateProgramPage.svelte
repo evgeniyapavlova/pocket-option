@@ -7,5 +7,5 @@
 
 <IntroH1 btnText="Join Now">Pocket Option Affiliate Program</IntroH1>
 <ContentWrap>
-	<DisplayAnyContent {content} imgFolder="affiliates-program" />
+	<DisplayAnyContent {content} imgFolder="affiliate-program" />
 </ContentWrap>
