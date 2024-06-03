@@ -29,7 +29,7 @@
 		margin: 0 auto;
 	}
 	.screen-image {
-		background: no-repeat url('/images/main-page/monitor_2x_2.png');
+		background: no-repeat url('/images/main-page/monitor_2x_2.webp');
 		background-size: cover;
 		width: 100%;
 		padding-bottom: 60%;
@@ -93,7 +93,7 @@
 			width: 240px;
 		}
 		.screen-image {
-			background-image: url('/images/main-page/iphone-img_2x_2.png');
+			background-image: url('/images/main-page/iphone-img_2x_2.webp');
 			padding-bottom: 204%;
 		}
 		section {

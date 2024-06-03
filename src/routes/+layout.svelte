@@ -9,8 +9,10 @@
 
 <div class="app">
 	<Header />
-	<slot />
-	<Section7SpecialOffer />
+	<section class="pattern-bgr">
+		<slot />
+		<Section7SpecialOffer />
+	</section>
 	<Footer />
 </div>
 
@@ -19,5 +21,6 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		overflow: hidden;
 	}
 </style>

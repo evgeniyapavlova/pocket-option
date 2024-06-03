@@ -26,7 +26,7 @@
 	section {
 		position: relative;
 		z-index: 1;
-		background-image: url('/images/main-page/offer.png');
+		background-image: url('/images/main-page/offer.webp');
 		background-repeat: no-repeat;
 		background-position: left calc(50% + 300px) bottom -40%;
 	}

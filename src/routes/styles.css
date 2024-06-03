@@ -224,8 +224,9 @@ section.intro {
 }
 
 .pattern-wrap {
-    position: relative;
-    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100vw;
 }
 
 .text a {
@@ -234,4 +235,12 @@ section.intro {
 
 .h2-in-text {
     margin-top: 80px;
+}
+
+.pattern-bgr {
+    background-image: url("/images/patterns/candles-left.webp"), url("/images/patterns/pattern-right.webp"), url("/images/patterns/pattern-left.webp"),
+        url("/images/patterns/candles-right.webp"), url("/images/patterns/pattern-right.webp");
+    background-size: 1154px 575px, 641px 641px, 674px 667px, 1154px 575px, 753px 753px;
+    background-repeat: no-repeat;
+    background-position: top 24% left -40%, right 1% top 28%, left -10% top 51%, right -35% top 56%, bottom 6% right -1%;
 }

@@ -2,7 +2,6 @@
 	import Intro from './REG_Section1Intro.svelte';
 	import RegSection4GoogleAccount from './REG_Section4GoogleAccount.svelte';
 	import RegSection5PocketOptionApp from './REG_Section5PocketOptionApp.svelte';
-
 	import RegSection7Faq from './REG_Section7FAQ.svelte';
 	import ContentWrap from '../common/ContentWrap.svelte';
 	import DisplayAnyContent from '$common/DisplayAnyContent/DisplayAnyContent.svelte';
