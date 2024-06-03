@@ -9,7 +9,7 @@
 </script>
 
 <IntroH1 bgrImg="/images/desktop-app-page/intro-bgr.jpg">
-	Pocket Option Promo Code:<br /> How To Get And&nbsp;Use&nbsp;It?
+	Pocket Option Promo&nbsp;Code:<br /> How To Get And&nbsp;Use&nbsp;It?
 </IntroH1>
 
 <ContentWrap>

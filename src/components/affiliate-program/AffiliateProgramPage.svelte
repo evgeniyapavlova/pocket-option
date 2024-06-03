@@ -5,7 +5,7 @@
 	import DisplayAnyContent from '$common/DisplayAnyContent/DisplayAnyContent.svelte';
 </script>
 
-<IntroH1 btnText="Join Now">Pocket Option Affiliate Program</IntroH1>
+<IntroH1 btnText="Join Now">Pocket Option Affiliate&nbsp;Program</IntroH1>
 <ContentWrap>
 	<DisplayAnyContent {content} imgFolder="affiliate-program" />
 </ContentWrap>

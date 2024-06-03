@@ -33,7 +33,7 @@ export default [
 			'<b>Mobile apps and links</b>'
 		]
 	},
-	{ tag: tags.h2, text: 'How To Become A Partner' },
+	{ tag: tags.h2, text: 'How To Become A&nbsp;Partner' },
 	{
 		tag: tags.ol_ul,
 		text: [
