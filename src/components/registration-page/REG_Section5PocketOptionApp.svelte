@@ -1,21 +1,11 @@
+<script>
+	import { section5 } from './content';
+	import DisplayAnyContent from '$common/DisplayAnyContent/DisplayAnyContent.svelte';
+</script>
+
 <div class="content-wrap">
 	<div class="text-content">
-		<h2>Register an Account in the PocketOption&nbsp;App</h2>
-		<div class="text" style="margin-bottom: 20px;">
-			You need to install the PocketOption Broker app from the App Store or Google Play to create a
-			trading account.
-		</div>
-		<div class="text">Click "Registration" to create a new PocketOption account.</div>
-		<ol>
-			<li>Enter a valid email address.</li>
-			<li>Create a secure password.</li>
-			<li>Enter a promo code (if you have one).</li>
-			<li>Review the terms of the agreement and click "Sign&nbsp;up".</li>
-		</ol>
-		<div class="text">
-			Congratulations! You have successfully registered. To start trading with a real account, click
-			"Deposit". If you prefer to start with a demo account, you already have $&nbsp;1,000.
-		</div>
+		<DisplayAnyContent imgFolder="registration-page" content={section5} />
 	</div>
 </div>
 
