@@ -57,7 +57,7 @@
 			{/each}
 		</ol>
 	{:else if data.tag === 'btn'}
-		<div class="btn-wrap"><Button>{data.text}</Button></div>
+		<div class="btn-wrap"><Button>{@html data.text}</Button></div>
 	{:else if data.tag === 'img'}
 		<ImageWrap
 			imageW={data.thumb[0]}

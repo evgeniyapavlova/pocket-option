@@ -23,4 +23,10 @@
 		color: var(--highlight-blue);
 		background-color: white;
 	}
+
+	@media screen and (max-width: 480px) {
+		.button {
+			padding: 14px 24px;
+		}
+	}
 </style>
