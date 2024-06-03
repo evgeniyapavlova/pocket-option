@@ -48,6 +48,12 @@
 		overflow: visible;
 	}
 
+	@media screen and (max-width: 640px) {
+		dialog {
+			max-width: 95%;
+		}
+	}
+
 	dialog::backdrop {
 		background: rgba(0, 0, 0, 0.5);
 	}

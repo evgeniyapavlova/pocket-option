@@ -244,3 +244,21 @@ section.intro {
     background-repeat: no-repeat;
     background-position: top 24% left -40%, right 1% top 28%, left -10% top 51%, right -35% top 56%, bottom 6% right -1%;
 }
+
+@media screen and (max-width: 1200px) {
+    .pattern-bgr {
+        background-size: 800px auto, 500px auto, 550px auto, 900px auto, 600px auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .pattern-bgr {
+        background-size: 600px auto, 400px auto, 500px auto, 800px auto, 500px auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .pattern-bgr {
+        background-size: 400px auto, 300px auto, 400px auto, 400px auto, 300px auto;
+    }
+}
