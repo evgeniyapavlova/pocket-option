@@ -26,7 +26,7 @@
 		margin: 0 auto;
 	}
 	section {
-		background-image: url('/images/main-page/intro-bgr.jpg');
+		background-image: url('/images/main-page/intro-bgr.webp');
 		position: relative;
 	}
 	h1 {

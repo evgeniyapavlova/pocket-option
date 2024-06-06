@@ -37,7 +37,7 @@
 	}
 	section {
 		position: relative;
-		background-image: url('/images/main-page/intro-bgr.jpg');
+		background-image: url('/images/main-page/intro-bgr.webp');
 		padding-left: 24px;
 		padding-right: 24px;
 		padding-bottom: 125px;

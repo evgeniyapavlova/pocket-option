@@ -41,7 +41,7 @@
 		width: 100%;
 	}
 	.globus-image {
-		background-image: url('/images/main-page/reputation.png');
+		background-image: url('/images/main-page/reputation.webp');
 		background-repeat: no-repeat;
 		padding-bottom: 94%;
 		width: 100%;

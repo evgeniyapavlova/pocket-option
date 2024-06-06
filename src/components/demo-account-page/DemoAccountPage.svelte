@@ -5,7 +5,7 @@
 	import content from './content';
 </script>
 
-<IntroH1 bgrImg="/images/desktop-app-page/intro-bgr.jpg">
+<IntroH1>
 	Discover The Excitement Of Trading<br />With Pocket&nbsp;Option Demo&nbsp;Account
 </IntroH1>
 

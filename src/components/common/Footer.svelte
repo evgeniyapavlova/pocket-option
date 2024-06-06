@@ -74,6 +74,14 @@
 		width: 780px;
 	}
 
+	.footer-menu a {
+		transition: color ease-out 0.2s;
+	}
+
+	.footer-menu a:hover {
+		color: var(--highlight-blue);
+	}
+
 	ul {
 		display: block;
 		width: 25%;

@@ -1,35 +1,10 @@
 <script>
 	import MainPage from '../components/main-page/MainPage.svelte';
-	import { onMount } from 'svelte';
-	import { reg_link } from '../lib/stores/reg_link';
 	import meta_img from '$lib/images/meta_img_main.jpg';
 
 	const title = 'Pocket Option Broker — Best Trading Platform in India';
 	const desc =
 		'Pocket Option is an online trading broker that provides 24/7 access to over 100 trading instruments and a deposit bonus. Register today!';
-
-	function getURLParameters() {
-		const queryString = window.location.search;
-		const urlParams = new URLSearchParams(queryString);
-		return Object.fromEntries(urlParams.entries());
-	}
-
-	function updateLinks() {
-		const parameters = getURLParameters();
-		const linkHref = $reg_link;
-		const [url, query] = linkHref.split('?');
-		const queryParams = new URLSearchParams(query);
-
-		for (const [key, value] of Object.entries(parameters)) {
-			queryParams.set(key, value);
-		}
-		const updatedHref = url + '?' + queryParams.toString();
-		reg_link.set(updatedHref);
-	}
-
-	onMount(() => {
-		updateLinks();
-	});
 </script>
 
 <svelte:head>

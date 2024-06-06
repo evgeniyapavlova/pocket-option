@@ -5,7 +5,7 @@
 	import content from './content';
 </script>
 
-<IntroH1 bgrImg="/images/desktop-app-page/intro-bgr.jpg">
+<IntroH1>
 	Download Android App<br />For Best Mobile Experience
 </IntroH1>
 <ContentWrap>

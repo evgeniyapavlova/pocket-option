@@ -4,9 +4,7 @@
 	import ContentWrap from '$common/ContentWrap.svelte';
 </script>
 
-<IntroH1 btnText="Register" bgrImg="/images/desktop-app-page/intro-bgr.jpg">
-	Minimum Deposit
-</IntroH1>
+<IntroH1 btnText="Register">Minimum Deposit</IntroH1>
 <ContentWrap>
 	<MdSection2Content />
 </ContentWrap>

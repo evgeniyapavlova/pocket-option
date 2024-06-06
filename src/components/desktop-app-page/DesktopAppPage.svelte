@@ -6,7 +6,7 @@
 	import REG_Section4GoogleAccount from '../registration-page/REG_Section4GoogleAccount.svelte';
 </script>
 
-<IntroH1 bgrImg="/images/desktop-app-page/intro-bgr.jpg">
+<IntroH1>
 	Pocket Option <br />Desktop App
 </IntroH1>
 <ContentWrap>
