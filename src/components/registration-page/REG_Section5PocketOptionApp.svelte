@@ -13,7 +13,7 @@
 	.content-wrap {
 		padding-top: 20px;
 		padding-bottom: 80px;
-		background-image: url('/images/registration-page/pocket_app.jpg');
+		background-image: url('/images/registration-page/pocket_app.webp');
 		background-repeat: no-repeat;
 		background-size: 260px 515px;
 		background-position: right 0 bottom 50%;

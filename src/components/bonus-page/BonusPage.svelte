@@ -8,7 +8,7 @@
 	import DisplayAnyContent from '$common/DisplayAnyContent/DisplayAnyContent.svelte';
 </script>
 
-<IntroH1 bgrImg="/images/desktop-app-page/intro-bgr.jpg">
+<IntroH1>
 	Pocket Option Promo&nbsp;Code:<br /> How To Get And&nbsp;Use&nbsp;It?
 </IntroH1>
 

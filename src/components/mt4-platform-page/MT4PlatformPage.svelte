@@ -5,7 +5,7 @@
 	import content from './content';
 </script>
 
-<IntroH1 btnText="Try now" bgrImg="/images/desktop-app-page/intro-bgr.jpg">MT4 Platform</IntroH1>
+<IntroH1 btnText="Try now">MT4 Platform</IntroH1>
 
 <ContentWrap>
 	<DisplayAnyContent imgFolder="mt4-platform" {content} />

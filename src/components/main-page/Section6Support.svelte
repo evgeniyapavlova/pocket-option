@@ -24,7 +24,7 @@
 		bottom: 0;
 		width: 240px;
 		height: 283px;
-		background-image: url('/images/main-page/support.png');
+		background-image: url('/images/main-page/support.webp');
 		background-size: cover;
 	}
 	@media screen and (max-width: 1200px) {

@@ -22,7 +22,7 @@
 	}
 	section {
 		padding: 240px 24px 125px;
-		background-image: url('/images/registration-page/intro-bgr.jpg');
+		background-image: url('/images/registration-page/intro-bgr.webp');
 		position: relative;
 	}
 	.text {

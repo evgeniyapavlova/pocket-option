@@ -19,7 +19,7 @@
 			<div class="safety-item blue-border-block">
 				<div
 					class="safety-img"
-					style="background-image: url('{base}/images/main-page/safety-item-{index + 1}.png')"
+					style="background-image: url('{base}/images/main-page/safety-item-{index + 1}.webp')"
 				></div>
 				<div class="text">{@html item}</div>
 			</div>
